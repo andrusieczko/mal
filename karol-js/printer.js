@@ -8,6 +8,7 @@ const prStr = (form) => {
     case 'number':
       return form.value;
   }
+  return form;
 }
 
 module.exports = {prStr};
